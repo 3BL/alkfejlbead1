@@ -12,6 +12,14 @@ module.exports = {
             enum: ['new', 'assigned', 'success', 'rejected', 'pending'],
             required: true,
         },
+        subject: {
+            type: 'string',
+            required: true,
+        },
+        credit: {
+            type: 'integer',
+            required: true,
+        },
         location: {
             type: 'string',
             required: true,

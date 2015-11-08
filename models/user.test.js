@@ -11,7 +11,6 @@ var User;
 before(function (done) {
     // ORM indítása
     var orm = new Waterline();
-
     orm.loadCollection(Waterline.Collection.extend(userCollection));
     orm.loadCollection(Waterline.Collection.extend(errorCollection));
     waterlineConfig.connections.default.adapter = 'memory';

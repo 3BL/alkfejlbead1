@@ -1,17 +1,160 @@
 {
   "data": {
-    "error": [],
+    "error": [
+      {
+        "status": "new",
+        "subject": "ALkfejl",
+        "credit": 5,
+        "location": "qqq",
+        "description": "www",
+        "date": "2015-10-05T12:26:43.855Z",
+        "createdAt": "2015-10-05T12:26:43.857Z",
+        "updatedAt": "2015-10-05T12:26:43.857Z",
+        "id": 1
+      },
+      {
+        "status": "new",
+        "location": "wegvwergvb",
+        "description": "berwherh",
+        "date": "2015-10-05T12:30:37.981Z",
+        "createdAt": "2015-10-05T12:30:37.982Z",
+        "updatedAt": "2015-10-05T12:30:37.982Z",
+        "id": 2
+      },
+      {
+        "status": "new",
+        "location": "pc6",
+        "description": "rossz",
+        "date": "2015-10-12T13:26:28.596Z",
+        "createdAt": "2015-10-12T13:26:28.597Z",
+        "updatedAt": "2015-10-12T13:26:28.597Z",
+        "id": 3
+      },
+      {
+        "status": "new",
+        "location": "pc6",
+        "description": "rossz",
+        "date": "2015-10-12T13:27:03.715Z",
+        "createdAt": "2015-10-12T13:27:03.715Z",
+        "updatedAt": "2015-10-12T13:27:03.715Z",
+        "id": 4
+      },
+      {
+        "status": "new",
+        "location": "pc6",
+        "description": "rossz",
+        "date": "2015-10-12T13:29:27.426Z",
+        "createdAt": "2015-10-12T13:29:27.426Z",
+        "updatedAt": "2015-10-12T13:29:27.426Z",
+        "id": 5
+      },
+      {
+        "status": "new",
+        "location": "Blabla",
+        "description": "Proba",
+        "date": "2015-11-08T15:45:26.444Z",
+        "createdAt": "2015-11-08T15:45:26.446Z",
+        "updatedAt": "2015-11-08T15:45:26.446Z",
+        "id": 6
+      },
+      {
+        "status": "new",
+        "location": "új",
+        "description": "blabalab",
+        "date": "2015-11-08T16:13:48.903Z",
+        "createdAt": "2015-11-08T16:13:48.904Z",
+        "updatedAt": "2015-11-08T16:13:48.904Z",
+        "id": 7
+      },
+      {
+        "status": "new",
+        "subject": "qeqe",
+        "credit": 42,
+        "location": "eqea",
+        "description": "eaea",
+        "date": "2015-11-08T18:25:29.665Z",
+        "createdAt": "2015-11-08T18:25:29.667Z",
+        "updatedAt": "2015-11-08T18:25:29.667Z",
+        "id": 8
+      },
+      {
+        "status": "new",
+        "subject": "Ez az új",
+        "credit": 32,
+        "location": "edad",
+        "description": "dadada",
+        "date": "2015-11-08T18:25:51.352Z",
+        "createdAt": "2015-11-08T18:25:51.352Z",
+        "updatedAt": "2015-11-08T18:25:51.352Z",
+        "id": 9
+      },
+      {
+        "status": "new",
+        "subject": "legujjabb",
+        "credit": 42,
+        "location": "Legújabb",
+        "description": "legujabb",
+        "date": "2015-11-08T18:26:15.926Z",
+        "createdAt": "2015-11-08T18:26:15.927Z",
+        "updatedAt": "2015-11-08T18:26:15.927Z",
+        "id": 10
+      },
+      {
+        "status": "new",
+        "subject": "rrwrw",
+        "credit": 4,
+        "location": "wrr",
+        "description": "rwr",
+        "date": "2015-11-08T18:28:37.862Z",
+        "createdAt": "2015-11-08T18:28:37.864Z",
+        "updatedAt": "2015-11-08T18:28:37.864Z",
+        "id": 11
+      }
+    ],
     "user": [
       {
-        "surname": "Triebel",
-        "forename": "Tamás",
-        "neptun": "tphn3q",
-        "password": "$2a$10$UwAd98LVNjELCm3a3CyAM.jxhgU1YIGdqJISLkcqp2h0jKvoTYSC.",
+        "surname": "q",
+        "forename": "q",
+        "neptun": "q",
+        "password": "q",
         "avatar": "",
         "role": "riporter",
-        "createdAt": "2015-11-03T12:37:36.040Z",
-        "updatedAt": "2015-11-03T12:37:36.040Z",
-        "id": 1
+        "createdAt": "2015-10-12T12:09:54.312Z",
+        "updatedAt": "2015-10-12T12:09:54.312Z",
+        "id": 2
+      },
+      {
+        "surname": "Horváth",
+        "forename": "Győző",
+        "neptun": "k81dnc",
+        "password": "$2a$10$KIpMlrBNk9sGrgluiEbHKeA/U5qU14cri.tWWGydKMU8w1FLFcDpq",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-12T12:42:24.139Z",
+        "updatedAt": "2015-10-12T12:42:24.139Z",
+        "id": 3
+      },
+      {
+        "surname": "Menő",
+        "forename": "Csávó",
+        "neptun": "aaa",
+        "password": "$2a$10$6lMtqJ/ZX/yWdbX/mTjC3ur7V8y77WvQbVXHNChbZfaIuiYjLKXva",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-08T16:00:51.210Z",
+        "updatedAt": "2015-11-08T16:00:51.210Z",
+        "id": 4
+      },
+      {
+        "surname": "s",
+        "forename": "s",
+        "neptun": "s",
+        "password": "$2a$10$m4ntJVk2wElUO8FxbU236elXU2fBIAVLLAUmo6vBheeoqWjhSrN/O",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-08T16:13:31.068Z",
+        "updatedAt": "2015-11-08T16:13:31.068Z",
+        "id": 5
       }
     ]
   },
@@ -29,6 +172,12 @@
           "rejected",
           "pending"
         ]
+      },
+      "subject": {
+        "type": "string"
+      },
+      "credit": {
+        "type": "integer"
       },
       "location": {
         "type": "string"
@@ -95,9 +244,11 @@
     }
   },
   "counters": {
-    "error": {},
+    "error": {
+      "id": 11
+    },
     "user": {
-      "id": 1
+      "id": 5
     }
   }
 }

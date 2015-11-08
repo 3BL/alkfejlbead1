@@ -47,6 +47,8 @@ router.get('/new', function (req, res) {
 });
 router.post('/new', function (req, res) {
     // adatok ellenőrzése
+    req.checkBody('targynev', 'Hibás tárgynév').notEmpty().withMessage('Kötelező megadni!');
+    req.checkBody('kredit', 'Hibás kreditérték').notEmpty().withMessage('Kötelező megadni!');
     req.checkBody('helyszin', 'Hibás helyszín').notEmpty().withMessage('Kötelező megadni!');
     req.sanitizeBody('leiras').escape();
     req.checkBody('leiras', 'Hibás leírás').notEmpty().withMessage('Kötelező megadni!');
@@ -64,12 +66,15 @@ router.post('/new', function (req, res) {
         // adatok elmentése (ld. később) és a hibalista megjelenítése
         req.app.models.error.create({
             status: 'new',
+            subject: req.body.targynev,
+            credit: parseInt(req.body.kredit),
             location: req.body.helyszin,
-            description: req.body.leiras
+            description: req.body.leiras,
+            // user beállítás ide kell vszinű
         })
         .then(function (error) {
             //siker
-            req.flash('info', 'Hiba sikeresen felvéve!');
+            req.flash('info', 'Tárgy sikeresen felvéve!');
             res.redirect('/errors/list');
         })
         .catch(function (err) {
