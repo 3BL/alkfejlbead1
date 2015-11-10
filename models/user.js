@@ -32,8 +32,8 @@ module.exports = {
             defaultsTo: 'riporter'
         },
         
-        errors: {
-            collection: 'error',
+        subjects: {
+            collection: 'subject',
             via: 'user'
         },
         

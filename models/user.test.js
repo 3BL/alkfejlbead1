@@ -4,7 +4,7 @@ var bcrypt = require('bcryptjs');
 var Waterline = require('waterline');
 var waterlineConfig = require('../config/waterline');
 var userCollection = require('./user');
-var errorCollection = require('./error');
+var subjectCollection = require('./subject');
 
 var User;
 
@@ -12,7 +12,7 @@ before(function (done) {
     // ORM indítása
     var orm = new Waterline();
     orm.loadCollection(Waterline.Collection.extend(userCollection));
-    orm.loadCollection(Waterline.Collection.extend(errorCollection));
+    orm.loadCollection(Waterline.Collection.extend(subjectCollection));
     waterlineConfig.connections.default.adapter = 'memory';
 
     orm.initialize(waterlineConfig, function(err, models) {
