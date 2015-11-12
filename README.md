@@ -48,12 +48,10 @@ ha belép a rendszerbe. ** A one-to-many kapcsolat úgy valósul meg, hogy egy f
 ##Interfész
 ![Adatbázis modell](https://github.com/3BL/alkfejlbead1/blob/master/documentation/webdesign.png)
 
-Röviden a felhasználói interfészről. A bal felső sarokban van egy logo, amire ha rákattintunk a tantárgy
-listázós oldalra irányit, feltéve, hogy be vagyunk jelentkezve. Ha nem vagyunk bejelentkezve, akkor jobb felső
-sarokban lehet a bejelentkezés gombra kattintani, ami átvisz a login oldalra. Ezen az oldalon lehet a
-regisztrálás gombra is kattintani, ami a signup oldalra visz, ahol ki lehet tölteni értelemszerüen a
-mezőket és regisztrálni a rendszerbe. Miután belépünk, az oldal tetején van egy csík ahol ki van írva a nevünk, és
-itt lehet kijelentkezni is.
+Röviden a felhasználói interfészről. A bal felső sarokban van egy logo, amire ha rákattintunk a főoldalra 
+irányít. Ha nem vagyunk bejelentkezve, akkor jobb felső sarokban lehet a bejelentkezés gombra kattintani, ami átvisz a login oldalra. Ezen az oldalon lehet a regisztrálás gombra is kattintani, ami a signup oldalra visz, ahol ki lehet tölteni értelemszerüen a mezőket és regisztrálni a rendszerbe. Miután belépünk, az oldal tetején jobb oldalt ki van 
+írva a nevünk, és itt lehet kijelentkezni is, illetve van egy link a listázó oldalra, ami csak akkor irányít
+oda, ha be vagyunk jelentkezve.
 
 
 ##Tesztek
@@ -74,9 +72,8 @@ felvételt.
 
 Én a cloud9 webes felüleletet használtam a projekt megírásához Windows-on. Ha valaki folytatni szeretné,
 akkor egyszerüen csak le kell töltenie, és a saját cloud9 projektjébe importálnia. Másik megoldás, ha
-valamilyen IDE-t telepít, például Webstorm, ahol a server.js futtatásával indíthatja el az alkalmazást. Előbbi esetben
-az npm install és bower install utasítások cloud9-beli futtása is kell először a működéshez, utóbbiban 
-a node.js-t kell telepíteni a használni kivánt IDE-n kivül.
+valamilyen lokális fejlesztői környezetet telepít, például a Webstorm, ahol a server.js futtatásával indíthatja el az alkalmazást. Cloud9 használata esetén az npm install és bower install utasítások bash-beli futtása kell először a 
+működéshez, utóbbiban először a node.js-t is kell telepíteni a használni kivánt IDE-n kivül.
 
 A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és valamilyen 2 magos processzorra minimum.
 
