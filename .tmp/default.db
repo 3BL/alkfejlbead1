@@ -3,13 +3,13 @@
     "subject": [
       {
         "subjectname": "Triebel Gyak",
-        "credit": 3,
-        "location": "Gyuros",
-        "description": "Kloccs",
+        "credit": 6,
+        "location": "Ez a legjobb",
+        "description": "Vagy mégsem? :D",
         "user": 5,
         "date": "2015-11-10T18:51:33.660Z",
         "createdAt": "2015-11-10T18:51:33.661Z",
-        "updatedAt": "2015-11-10T18:51:56.547Z",
+        "updatedAt": "2015-11-12T18:32:53.253Z",
         "id": 21
       },
       {
@@ -66,6 +66,39 @@
         "createdAt": "2015-11-10T19:04:34.486Z",
         "updatedAt": "2015-11-10T19:04:34.486Z",
         "id": 26
+      },
+      {
+        "subjectname": "Alkfejlgyak",
+        "credit": 5,
+        "location": "2-600",
+        "description": "Hasznos, mert végre up-to-date dolgokat is veszünk",
+        "user": 3,
+        "date": "2015-11-12T17:40:15.751Z",
+        "createdAt": "2015-11-12T17:40:15.753Z",
+        "updatedAt": "2015-11-12T17:40:15.753Z",
+        "id": 27
+      },
+      {
+        "subjectname": "Alkalmazások fejlesztése GY",
+        "credit": 4,
+        "location": "Legújabb",
+        "description": "Jó",
+        "user": 4,
+        "date": "2015-11-12T17:40:59.356Z",
+        "createdAt": "2015-11-12T17:40:59.357Z",
+        "updatedAt": "2015-11-12T17:40:59.357Z",
+        "id": 28
+      },
+      {
+        "subjectname": "Mukszik",
+        "credit": 3,
+        "location": "D 6-63",
+        "description": "Funny",
+        "user": 4,
+        "date": "2015-11-12T17:41:17.757Z",
+        "createdAt": "2015-11-12T17:41:17.757Z",
+        "updatedAt": "2015-11-12T17:41:17.757Z",
+        "id": 29
       }
     ],
     "user": [
@@ -203,7 +236,7 @@
   },
   "counters": {
     "subject": {
-      "id": 26
+      "id": 29
     },
     "user": {
       "id": 6
