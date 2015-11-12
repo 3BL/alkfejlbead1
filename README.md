@@ -37,7 +37,7 @@ ezért itt a listájuk:
 
 
 ##Modellek
-
+![Adatbázis modell](https://github.com/3BL/alkfejlbead1/blob/master/documentation/modelrelations.png)
 
 Itt egy kép látható az adatbázis modellről. A user modell tükrözi a felhasználót akinek egy egyedi adattagja van,
 a neptun kód, tehát két ugyanolyan neptun nem lehet az adatbázisban. Lehet sok felhasználó (user), mindenkinek lehetnek
@@ -46,7 +46,7 @@ ha belép a rendszerbe. ** A one-to-many kapcsolat úgy valósul meg, hogy egy f
 
 
 ##Interfész
-
+![Adatbázis modell](https://github.com/3BL/alkfejlbead1/blob/master/documentation/webdesign.png)
 
 Röviden a felhasználói interfészről. A bal felső sarokban van egy logo, amire ha rákattintunk a tantárgy
 listázós oldalra irányit, feltéve, hogy be vagyunk jelentkezve. Ha nem vagyunk bejelentkezve, akkor jobb felső
