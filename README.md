@@ -58,17 +58,20 @@ itt lehet kijelentkezni is.
 
 ##Tesztek
 
+
 Két fő tesztelési metódust használtam a feladatban.
 
-* Az első az egy mocha/chai típusú tesztelés. Ez teszteli azt, hogy egy modelt létre lehet-e hozni,
-hogy később megtalálható legyen az adatbázisban módosítás, vagy törlés céljából. Ez a teszt
-fedezi az adatbázis részt és az ORM/waterline/sails részt, ami dologozik.
+* Az első az egy mocha/chai típusú tesztelés a user.test.js fájlban. Ez teszteli azt, hogy egy modelt létre lehet-e hozni,
+hogy később megtalálható legyen az adatbázisban módosítás, vagy törlés céljából. Ez a teszt fedezi 
+az adatbázis részt és az ORM/waterline/sails részt, ami dologozik.
 
 * A másik teszteléshez használt eszköz, az a handlebars fájlokban a validator, amivel ellenőrizni
 tudjuk, hogy minden mező ki legyen töltve, enélkül ne fogadjuk el a user regisztrációt vagy a tantárgy
 felvételt.
 
 ##Fejlesztés és felhasználás
+
+
 Én a cloud9 webes felüleletet használtam a projekt megírásához Windows-on. Ha valaki folytatni szeretné,
 akkor egyszerüen csak le kell töltenie, és a saját cloud9 projektjébe importálnia. Másik megoldás, ha
 valamilyen IDE-t telepít, például Webstorm, ahol a server.js futtatásával indíthatja el az alkalmazást. Előbbi esetben
@@ -79,6 +82,7 @@ A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és vala
 
 
 ##Funkció lista 
+
 
 - Regisztráció, login oldal működik, a jelszó bcrypt-el kódolva kerül az adatbázisba
 - A neptun kód egyedi, csak egy lehet mindegyikből, ha ez nem teljesül, akkor hibát jelez a program
